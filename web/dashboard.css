@@ -1,0 +1,77 @@
+input {
+    font-family: sans-serif;
+}
+body {
+    /*background-color: #faf6f1;*/
+    overflow-y: hidden;
+}
+h1 {
+    font-family: 'arial';
+    font-weight: 400;
+    text-align: center;
+}
+#filter_div {
+    height: 50px;
+}
+#chart_div {
+    height: 750px;
+}
+.buttonbar {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.inner {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.extraButton {
+}
+@media (max-width: 550px) {
+    .extraButton {
+        display: none;
+    }
+}
+@media (pointer:coarse) {
+    #filter_div {
+        display: none;
+    }
+    .buttonbar {
+        margin-bottom: 0em;
+    }
+}
+@media (max-height: 50em) {
+    #chart_div {
+        height: 540px;
+    }
+    .buttonbar {
+        margin-bottom: 0.5em;
+    }
+}
+@media (max-height: 39.5em) {
+    #filter_div {
+        display: none;
+    }
+    #chart_div {
+        height: 400px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .buttonbar {
+        margin-bottom: 0em;
+    }
+}
+@media (max-height: 30.0em) {
+    #chart_div {
+        height: 325px;
+    }
+    h1 {
+        display: none;
+    }
+}
+.controlWrapper {
+    /*background-color: #faf6f1;*/
+    /*color: #faf6f1;*/
+}

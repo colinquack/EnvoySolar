@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    background: url(http://iezzimarshall.com/pix/10%20May%202015/IMG_0121.JPG) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.wallpaper {
+    max-width: none!important;
+    z-index: -2;
+    width: 1578px;
+    position: fixed; 
+    left: -165px;
+    right: auto; 
+    bottom: auto;  
+    height: auto;
+    top: 0px;
+}
+
+.bodybox {
+   width: 630px; 
+   margin: 0 auto; 
+   overflow: hidden; 
+}
+
+.sysdata {
+    font-size: 32px;
+    text-align: center;
+    color: #009900;
+}
+
+.badsysdata {
+    font-size: 32px;
+    text-align: center;
+    color: red;
+}
+
+.dataname {
+    font-size: 24px;
+    text-align: right;
+}
+
+.datavalue {
+    font-size: 24px;
+    text-align: left;
+    color: darkslateblue;
+}
+
+DIV {
+    font-family: sans-serif;
+}
+
+table {
+    border-radius: 20px;
+    border: 2px solid darkgrey;
+    padding: 10px; 
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0 auto; 
+    overflow: hidden;
+    box-shadow: 10px 10px 15px rgba(40, 40, 40, 0.5);
+}
