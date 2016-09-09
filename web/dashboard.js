@@ -409,7 +409,7 @@ function rangeChange(value) {
 //            }
             break;
         case "month":
-            offset = 31;
+            offset = 30;
 //            if (range === 'day') {
 //                mode = 'max';
 //                change = true;
